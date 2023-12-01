@@ -4,8 +4,8 @@ import Provider from "@components/Provider";
 import Nav from "@components/Nav";
 
 export const metadata = {
-    title: "yo-dad",
-    description: "share dad jokes and gen-z slangs"
+    title: "hey-dad",
+    description: "a pool of dad jokes, create and share dad jokes"
 }
 
 const RootLayout = ({ children }) => {

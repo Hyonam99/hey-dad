@@ -26,7 +26,7 @@ const Nav = () => {
 					height={30}
 					className="object-contain"
 				/>
-				<p className="logo_text">Yo-Dad!</p>
+				<p className="logo_text">Hey-Dad!</p>
 			</Link>
 
 			{/* Desktop Navigation Section */}
@@ -94,7 +94,7 @@ const Nav = () => {
                                     className="dropdown_link"
                                     onClick={() => setMobileMenu(false)}
                                 >
-                                    Create Jokes
+                                    Create joke
                                 </Link>
 							</div>
 						)}
