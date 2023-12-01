@@ -1,8 +1,11 @@
 import "@/styles/globals.css";
+import Provider from "@components/Provider";
+
+import Nav from "@components/Nav";
 
 export const metadata = {
-    title: "memez",
-    description: "share memes and genz slangs"
+    title: "yo-dad",
+    description: "share dad jokes and gen-z slangs"
 }
 
 const RootLayout = ({ children }) => {
@@ -14,6 +17,7 @@ const RootLayout = ({ children }) => {
                 </div>
 
                 <main className="app">
+                    <Nav />
                     {children}
                 </main>
             </body>
